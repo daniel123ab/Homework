@@ -1,0 +1,93 @@
+body,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,p,span,a,i,img,form,input,button{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,ol,li {
+	list-style: none;
+}
+
+img {
+	display: block;
+	
+}
+
+form,input,button {
+	outline: none;
+	border: none;
+}
+
+i {
+	font-style: normal;
+	font-family: "icomoon";
+}
+
+/*公共样式*/
+
+body{
+	background-color: #fff;
+	font-family:  Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+    font-size: 12px;
+    background: #F0F3EF;
+    line-height: 1.5em;
+}
+
+a {
+	color: #666;
+}
+.spacer {
+	width: 1px;
+	height: 10px;
+	background: #CCC;
+	margin-left:13px;
+	margin-right: 13px;
+	margin-top: 10px;
+}
+.w{
+	width: 1190px;
+	margin:  0 auto;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.jdcolor {
+	color: #f10215;
+}
+
+
+
+.fs{
+	width: 100%;
+	height:500px;
+	background: #F6F6F6;
+}
+
+.cor2 h2{
+	position: absolute;
+	color: #333333;
+	margin: 17px 0 0 20px;
+	font-size: 21px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?61duze');
+  src:  url('../fonts/icomoon.eot?61duze#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?61duze') format('truetype'),
+    url('../fonts/icomoon.woff?61duze') format('woff'),
+    url('../fonts/icomoon.svg?61duze#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

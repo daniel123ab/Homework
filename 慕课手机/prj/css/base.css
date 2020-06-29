@@ -1,0 +1,47 @@
+
+/*样式初始化*/
+body,h1,h2,h3,h4,h5,h6,p,a,span,i,ul,ol,dl,dt,dd,li{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style:none;ss
+}
+img{
+	display:block;
+}
+
+ /*公共样式*/
+body{
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+a{
+	color:#131a1d;
+	font-size:12px;
+}
+a:hover{
+	color:#fe0100;
+}
+ h3{
+ 	font-size:40px;
+ 	font-weight:normal;
+ 	text-align: center; 
+
+ }
+ i{
+ 	font-style:normal;
+ 	color:#f01514;
+ }
+ p{
+ 	text-align:center;
+ 	font-size:14px;
+ }
+ .wrap{
+ 	width: 1190px;
+ 	
+ 	margin: 0 auto;
+ }
